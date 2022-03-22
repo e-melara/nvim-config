@@ -8,6 +8,13 @@ local buf_map = function(bufnr, mode, lhs, rhs, opts)
   })
 end
 
+local on_attach = function(client, _)
+    if client.resolved_capabilities.document_formatting then
+      vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()")
+  end
+end
+
+
 local opts = {
   on_attach = function(client, bufnr)
     client.resolved_capabilities.document_formatting = false

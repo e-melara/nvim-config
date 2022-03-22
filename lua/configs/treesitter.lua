@@ -25,3 +25,8 @@ lvim.builtin.treesitter.autotag = {
   }
 }
 
+lvim.builtin.treesitter.rainbow = {
+  enable = true,
+  extended_mode = true,
+  max_file_lines = nil,
+}

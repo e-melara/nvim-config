@@ -74,4 +74,5 @@ lvim.plugins = {
       require("todo-comments").setup()
     end,
   },
+  {"jose-elias-alvarez/nvim-lsp-ts-utils"}
 }
