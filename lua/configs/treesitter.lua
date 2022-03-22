@@ -16,3 +16,12 @@ lvim.builtin.treesitter.ensure_installed = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
+
+-- autotags
+lvim.builtin.treesitter.autotag = {
+  enable = true,
+  filetypes = {
+    'html', 'javascript', 'typescript', 'javascriptreact', 'typescriptreact', 'svelte', 'vue', 'tsx', 'jsx', 'rescript'
+  }
+}
+

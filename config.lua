@@ -17,3 +17,4 @@ require("keyboard")
 require("configs")
 -- Install plugins
 require("installer")
+
