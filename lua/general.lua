@@ -1,11 +1,18 @@
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
-lvim.colorscheme = "tokyonight"
+lvim.format_on_save = false
+
+-- Themes
+lvim.colorscheme = "github" -- rendered_day, molokai_m104, glow
+-- lvim.colorscheme = "" -- underwater-md, t256, mudcandy, chance-of-storm, cappuccino, idle
+vim.g.background  = 'light'
 lvim.transparent_window = false
 
+-- cmp completion
+lvim.builtin.cmp.completion.keyword_length = 2
 
 -- type de theme
 vim.g.tokyonight_style = "storm" -- day, night, day
-vim.g.background  = 'dark'
+lvim.builtin.lualine.options.theme = 'auto'
 
+vim.cmd [[ set termguicolors ]]

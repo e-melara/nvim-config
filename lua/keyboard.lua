@@ -3,6 +3,9 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode = {
   ['tt']      = ":t.<cr>",
+  ['qq']      = ":bdelete<cr>",
+  ['ff']      = "<cmd>lua vim.lsp.buf.formatting()<cr>",
+  ['zz']      = ":TroubleToggle<cr>",
   ['<C-x>']   = ":q<cr>",
   ['<C-s>']   = ":w<cr>",
   ['<C-c>']   = "<Esc>",

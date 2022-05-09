@@ -1,16 +1,14 @@
 -- Additional Plugins
 lvim.plugins = {
-  {"folke/tokyonight.nvim"},
-  {"EdenEast/nightfox.nvim"},
-  {'sainnhe/sonokai'},
-
-  {
-    "tzachar/cmp-tabnine",
-    run = "./install.sh",
-    requires = "hrsh7th/nvim-cmp",
-    event = "InsertEnter"
-  },
-
+  {"morhetz/gruvbox"},
+  {'m104/vim-config'}, -- rendered_day, molokai_m104, glow
+  {'mgutz/vim-colors'}, -- underwater-md, t256, mudcandy, chance-of-storm, cappuccino, idle,
+  {'dracula/vim'},
+  -- Themes color light
+  {'cormacrelf/vim-colors-github'},
+  {'cocopon/iceberg.vim'},
+  {'hzchirs/vim-material'},
+  {'haystackandroid/snow'},
   -- treesitter plugins
   {
     "windwp/nvim-ts-autotag",
