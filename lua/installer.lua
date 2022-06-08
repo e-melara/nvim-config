@@ -1,6 +1,8 @@
 -- Additional Plugins
 lvim.plugins = {
   { 'rose-pine/neovim', as = 'rose-pine', tag = 'v1.*' },
+  -- Instalacion de github Copilot  
+  { 'github/copilot.vim' },
   -- treesitter plugins
   {
     "windwp/nvim-ts-autotag",
