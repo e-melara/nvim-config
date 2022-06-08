@@ -2,8 +2,7 @@
 lvim.log.level = "warn"
 lvim.format_on_save = false
 
--- Themes
-lvim.colorscheme = "github" -- rendered_day, molokai_m104, glow
+lvim.colorscheme = 'rose-pine'
 -- lvim.colorscheme = "" -- underwater-md, t256, mudcandy, chance-of-storm, cappuccino, idle
 vim.g.background  = 'light'
 lvim.transparent_window = false
